@@ -100,7 +100,7 @@
             bindings = <
             &kp HOME    &kp END     &kp UP      &kp BSPC    &kp DEL
             &kp TAB     &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_UP
-            &kp z       &kp x       &kp c       &kp v       &kp PG_DN
+            &kp Z       &kp X       &kp C       &kp V       &kp PG_DN
                         &trans      &trans      &trans      &trans
             >;
         };
