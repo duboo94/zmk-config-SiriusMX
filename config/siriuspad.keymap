@@ -91,8 +91,8 @@
         default_layer {
             bindings = <
             &kp Q       &kp W       &kp E       &kp R       &kp T
-            &kp A       &kp S       &kp D       &kp F       &kp G
-            &kp M       &kp J       &kp H       &kp K       &kp L
+            &kp M       &kp J       &kp D       &kp K       &kp L
+            &kp A       &kp S       &kp F       &kp H       &kp N
                         &tog(3)     &tog(0)     &NUM ENTER   &NAV SPACE
             >;
         };
