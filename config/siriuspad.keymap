@@ -5,6 +5,7 @@
 #define NAV lt 1
 #define NUM lt 2
 #define KOR_COMBO layers = <0>;
+#define EN_COMBO layers = <3>;
 
 / {
     behaviors {
@@ -69,6 +70,18 @@
         combo_14 { timeout-ms = <50>; key-positions = <11 12>; bindings = <&kp X>; KOR_COMBO };
         combo_15 { timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp C>; KOR_COMBO };
         combo_16 { timeout-ms = <50>; key-positions = <13 14>; bindings = <&kp V>; KOR_COMBO };
+
+        combo_20 { timeout-ms = <50>; key-positions = <0 18>; bindings = <&kp J>; EN_COMBO };
+        combo_21 { timeout-ms = <50>; key-positions = <1 18>; bindings = <&kp M>; EN_COMBO };
+        combo_22 { timeout-ms = <50>; key-positions = <2 18>; bindings = <&kp B>; EN_COMBO };
+        combo_23 { timeout-ms = <50>; key-positions = <5 18>; bindings = <&kp V>; EN_COMBO };
+        combo_24 { timeout-ms = <50>; key-positions = <6 18>; bindings = <&kp C>; EN_COMBO };
+        combo_25 { timeout-ms = <50>; key-positions = <7 18>; bindings = <&kp L>; EN_COMBO };
+        combo_26 { timeout-ms = <50>; key-positions = <8 18>; bindings = <&kp Z>; EN_COMBO };
+        combo_27 { timeout-ms = <50>; key-positions = <9 18>; bindings = <&kp Q>; EN_COMBO };
+        combo_28 { timeout-ms = <50>; key-positions = <10 18>; bindings = <&kp X>; EN_COMBO };
+        combo_29 { timeout-ms = <50>; key-positions = <11 18>; bindings = <&kp G>; EN_COMBO };
+        combo_30 { timeout-ms = <50>; key-positions = <12 18>; bindings = <&kp K>; EN_COMBO };
     };
 
       keymap {
@@ -79,7 +92,7 @@
             &kp Q       &kp W       &kp E       &kp R       &kp T
             &kp M       &kp J       &kp D       &kp K       &kp L
             &kp A       &kp S       &kp H       &kp F       &kp N
-                        &mo(1)      &mo(2)      &NUM ENTER   &NAV SPACE
+                        &tog(3)     &tog(0)     &NUM ENTER   &NAV SPACE
             >;
         };
 
@@ -101,11 +114,20 @@
             >;
         };
 
-        3_layer {
+        en1_layer {
             bindings = <
-            &trans      &trans      &trans      &trans      &trans
-            &trans      &trans      &trans      &trans      &trans
-            &trans      &trans      &trans      &trans      &trans
+            &kp P       &kp W       &kp R       &kp A       &kp F
+            &kp D       &kp T       &kp H       &kp E       &kp O
+            &kp Y       &kp S       &kp N       &kp I       &kp U
+                        &trans      &trans      &NUM ENTER  &lt 4 SPACE
+            >;
+        };
+
+        en2_layer {
+            bindings = <
+            &kp J       &kp M       &kp B       &trans      &trans
+            &kp V       &kp C       &kp L       &kp Z       &kp Q
+            &kp X       &kp G       &kp K       &trans      &trans
                         &trans      &trans      &trans      &trans
             >;
         };
