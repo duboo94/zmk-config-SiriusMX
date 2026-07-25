@@ -66,10 +66,10 @@
         combo_10 { timeout-ms = <50>; key-positions = <6 7>; bindings = <&kp U>; KOR_COMBO };
         combo_11 { timeout-ms = <50>; key-positions = <7 8>; bindings = <&kp I>; KOR_COMBO };
         combo_12 { timeout-ms = <50>; key-positions = <8 9>; bindings = <&kp B>; KOR_COMBO };
-        combo_13 { timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp Z>; KOR_COMBO };
-        combo_14 { timeout-ms = <50>; key-positions = <11 12>; bindings = <&kp X>; KOR_COMBO };
-        combo_15 { timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp C>; KOR_COMBO };
-        combo_16 { timeout-ms = <50>; key-positions = <13 14>; bindings = <&kp V>; KOR_COMBO };
+        combo_13 { timeout-ms = <50>; key-positions = <10 7>; bindings = <&kp Z>; KOR_COMBO };
+        combo_14 { timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp X>; KOR_COMBO };
+        combo_15 { timeout-ms = <50>; key-positions = <11 12>; bindings = <&kp C>; KOR_COMBO };
+        combo_16 { timeout-ms = <50>; key-positions = <7 13>; bindings = <&kp V>; KOR_COMBO };
 
         combo_20 { timeout-ms = <50>; key-positions = <0 18>; bindings = <&kp J>; EN_COMBO };
         combo_21 { timeout-ms = <50>; key-positions = <1 18>; bindings = <&kp M>; EN_COMBO };
