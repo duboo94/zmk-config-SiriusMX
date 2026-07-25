@@ -78,7 +78,7 @@
             bindings = <
             &kp Q       &kp W       &kp E       &kp R       &kp T
             &kp M       &kp J       &kp D       &kp K       &kp L
-            &kp A       &kp X       &kp H       &kp F       &kp N
+            &kp A       &kp S       &kp H       &kp F       &kp N
                         &mo(1)      &mo(2)      &NUM ENTER   &NAV SPACE
             >;
         };
