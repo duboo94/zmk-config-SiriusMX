@@ -69,7 +69,8 @@
         combo_13 { timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp Z>; KOR_COMBO };
         combo_14 { timeout-ms = <50>; key-positions = <11 12>; bindings = <&kp X>; KOR_COMBO };
         combo_15 { timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp C>; KOR_COMBO };
-        combo_16 { timeout-ms = <50>; key-positions = <13 7>; bindings = <&kp V>; KOR_COMBO };
+        combo_16 { timeout-ms = <50>; key-positions = <13 14>; bindings = <&kp V>; KOR_COMBO };
+        combo_17 { timeout-ms = <50>; key-positions = <13 7>; bindings = <&kp N>; KOR_COMBO };
 
         combo_20 { timeout-ms = <50>; key-positions = <0 18>; bindings = <&kp J>; EN_COMBO };
         combo_21 { timeout-ms = <50>; key-positions = <1 18>; bindings = <&kp M>; EN_COMBO };
@@ -90,8 +91,8 @@
         default_layer {
             bindings = <
             &kp Q       &kp W       &kp E       &kp R       &kp T
-            &kp M       &kp J       &kp D       &kp K       &kp L
-            &kp A       &kp S       &kp H       &kp F       &kp N
+            &kp A       &kp S       &kp D       &kp F       &kp G
+            &kp M       &kp J       &kp H       &kp K       &kp L
                         &tog(3)     &tog(0)     &NUM ENTER   &NAV SPACE
             >;
         };
