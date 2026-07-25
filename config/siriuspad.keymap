@@ -86,8 +86,8 @@
         1_layer {
             bindings = <
             &kp HOME    &kp END     &kp UP      &kp BSPC    &kp DEL
-            &kp TAB     &hm LALT LEFT   &hm LCTRL DOWN  &hm LSHFT RIGHT &kp PG_UP
-            &trans      &trans      &trans      &kp ENTER   &kp PG_DN
+            &kp TAB     &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_UP
+            &kp z       &kp x       &kp c       &kp v       &kp PG_DN
                         &trans      &trans      &trans      &trans
             >;
         };
