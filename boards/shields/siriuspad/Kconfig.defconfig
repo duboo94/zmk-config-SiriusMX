@@ -1,6 +1,0 @@
-if SHIELD_SIRIUSPAD
-
-config ZMK_KEYBOARD_NAME
-    default "SIRIUS PAD"
-
-endif

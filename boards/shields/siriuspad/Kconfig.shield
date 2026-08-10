@@ -1,2 +1,0 @@
-config SHIELD_SIRIUSPAD
-    def_bool $(shields_list_contains,siriuspad)
