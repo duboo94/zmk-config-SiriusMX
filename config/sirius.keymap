@@ -39,7 +39,7 @@
             &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp Y                                    &kp ESC        &kp N1         &kp N2         &kp N3         &kp N4         &kp N5         &kp N6         &kp N7
             &kp CAPS       &kp A          &kp S          &kp D          &kp F          &kp G          &kp H                                      &kp CAPS       &kp A          &kp S          &kp D          &kp F          &kp G          &kp H
             &kp LSHFT      &kp Z          &kp X          &kp C          &kp V          &kp B          &kp N                                    &kp LSHFT      &kp Z          &kp X          &kp C          &kp V          &kp B          &kp N
-            &kp LCTRL      &kp LGUI       &kp LALT       &kp SPACE      &kp M          &kp U                                                       &trans      &kp LALT       &kp SPACE      &kp M          &kp Ub
+            &kp LCTRL      &kp LGUI       &kp LALT       &kp SPACE      &kp M          &kp U                                                       &trans      &kp LALT       &kp SPACE      &kp M          &kp U
             >;
         };
     };
