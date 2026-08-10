@@ -4,4 +4,4 @@ layers:
     - [TAB, Q, W, E, R, T, Y, Y, U, I, O, P, "[", "]", BSPC]
     - [CAPS, A, S, D, F, G, H, H, J, K, L, ";", "'", ENTER]
     - [SHIFT, Z, X, C, V, B, N, N, M, ",", ".", "/", UP, FN]
-    - [CTRL, WIN, ALT, SPACE, M, U, SPACE, ALT, LEFT, DOWN, RIGHT]
+    - [CTRL, VOL-, VOL+, ALT, SPACE, M, SPACE, ALT, LEFT, DOWN, RIGHT]
